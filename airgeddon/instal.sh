@@ -24,24 +24,24 @@ apt install -y iw gawk aircrack-ng tmux iproute2 pciutils procps bettercap etter
 #
 # instal hostapd-mana
 dpkg -i hostapd-mana_2.6.5+git20200121-0parrot1_amd64.deb
-apt install -f
+apt install -y -f
 
 # instal hostapd-wpe
 dpkg -i libunsafessl1.0.2_1.0.2u-0kali2_amd64.deb
 dpkg -i hostapd-wpe_2.10+git20220310-0parrot2_amd64.deb
-apt install -f
+apt install -y -f
 
 # instal beef-xss
 dpkg -i beef-xss_0.6.0.0-0parrot2_amd64.deb
-apt install -f
+apt install -y -f
 
 # instal isc-dhcp-server
 dpkg -i isc-dhcp-server_4.4.3-P1-8_amd64.deb
-apt install -f
+apt install -y -f
 
 # instal asleap
 dpkg -i asleap_2.3~git20201128.254acab-0parrot1_amd64.deb
-apt install -f
+apt install -y -f
 
 # kloning airgeddon
 git clone https://github.com/v1s1t0r1sh3r3/airgeddon /usr/share/airgeddon
