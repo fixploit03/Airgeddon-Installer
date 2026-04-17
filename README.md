@@ -11,7 +11,7 @@ curl -fsSL https://raw.githubusercontent.com/fixploit03/wireless-tools/main/inst
 ### Konfigurasi untuk CLI (Non-GUI)
 
 ```bash
-nano /usr/share/airgeddon/.airgeddonrc
+sudo nano /usr/share/airgeddon/.airgeddonrc
 ```
 
 Ubah:
@@ -29,5 +29,5 @@ AIRGEDDON_WINDOWS_HANDLING=tmux
 ### Mengaktifkan Plugin Multi Interface
 
 ```bash
-cp multint.sh /usr/share/airgeddon/plugins/
+sudo cp multint.sh /usr/share/airgeddon/plugins/
 ```
