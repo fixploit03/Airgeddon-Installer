@@ -17,7 +17,7 @@ sudo nano /usr/share/airgeddon/.airgeddonrc
 Ubah:
 
 ```bash
-AIRGEDDON_WINDOWS_HANDLING=xtem
+AIRGEDDON_WINDOWS_HANDLING=xterm
 ```
 
 Jadi:
