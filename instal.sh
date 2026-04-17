@@ -14,7 +14,7 @@ cek_root(){
 # konfirmasi instalasi
 konfirmasi_instalasi(){
 	while true; do
-		read -r -p "Apakah Anda ingin menginstal airgeddon? [Y/n] " konfirmasi
+		read -r -p "Apakah Anda ingin menginstal airgeddon? [Y/n] " konfirmasi < /dev/tty
 		case "${konfirmasi}" in
 			""|[yY])
 				break
