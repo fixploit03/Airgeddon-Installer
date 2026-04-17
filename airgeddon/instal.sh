@@ -46,7 +46,7 @@ apt install -y -f
 # kloning airgeddon
 git clone https://github.com/v1s1t0r1sh3r3/airgeddon /usr/share/airgeddon
 
-# pindahin wrapper airgeddon
+# salin wrapper airgeddon
 cp airgeddon /usr/local/bin
 
 echo "[+] airgeddon berhasil diinstal!"
