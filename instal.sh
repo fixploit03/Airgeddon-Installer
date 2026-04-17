@@ -14,7 +14,7 @@ cek_root(){
 # konfirmasi instalasi
 konfirmasi_instalasi(){
 	while true; do
-		read -r -p "Apakah Anda ingin menginstal airgeddon? [Y/n] " konfirmasi < /dev/tty
+		read -r -p "Apakah Anda ingin menginstal airgeddon? [Y/n] " konfirmasi
 		case "${konfirmasi}" in
 			""|[yY])
 				break
@@ -43,10 +43,6 @@ instal_airgeddon(){
 	apt update -y
 	# instal tools yang ada di repositori
 	apt install -y iw gawk aircrack-ng xterm tmux iproute2 pciutils procps bettercap ettercap-text-only dnsmasq hcxtools bully nftables pixiewps hashcat hashcat-data hostapd tcpdump ettercap-common tshark mdk4 reaver hcxdumptool crunch lighttpd openssl curl git
-
-	# kloning repositori
-	git clone https://github.com/fixploit03/Airgeddon-Installer
-	cd Airgeddon-Installer
 
 	# instal tools yang ga ada di repositori
 	#
