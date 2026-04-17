@@ -54,8 +54,5 @@ git clone https://github.com/v1s1t0r1sh3r3/airgeddon /usr/share/airgeddon
 # salin wrapper airgeddon
 cp airgeddon /usr/local/bin
 
-# salin plugin multi interface ke direktori plugin airgeddon
-cp multint.sh /usr/share/airgeddon/plugins
-
 echo "[+] airgeddon berhasil diinstal!"
 exit 0
