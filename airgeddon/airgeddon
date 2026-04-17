@@ -1,0 +1,17 @@
+#!/bin/bash
+
+path=/usr/share/airgeddon
+file=airgeddon.sh
+
+if [[ ! -d "${path}" ]]; then
+	echo "ERROR: Direktori '${path}' tidak ditemukan!"
+	exit 1
+fi
+
+if [[ ! -f "${path}/${file}" ]]; then
+	echo "ERROR: File '${path}/${file}' tidak ditemukan!"
+	exit 1
+fi
+
+cd /usr/share/airgeddon
+./airgeddon.sh
