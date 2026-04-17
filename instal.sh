@@ -18,7 +18,7 @@ fi
 # update repositori
 apt update -y
 # instal tools yang ada di repositori
-apt install -y iw gawk aircrack-ng tmux iproute2 pciutils procps bettercap ettercap-text-only dnsmasq hcxtools bully nftables pixiewps hashcat hashcat-data hostapd tcpdump ettercap-common tshark mdk4 reaver hcxdumptool crunch lighttpd openssl curl git
+apt install -y iw gawk aircrack-ng xterm tmux iproute2 pciutils procps bettercap ettercap-text-only dnsmasq hcxtools bully nftables pixiewps hashcat hashcat-data hostapd tcpdump ettercap-common tshark mdk4 reaver hcxdumptool crunch lighttpd openssl curl git
 
 # kloning repositori
 git clone https://github.com/fixploit03/Airgeddon-Installer
