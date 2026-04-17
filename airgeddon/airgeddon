@@ -1,4 +1,6 @@
 #!/bin/bash
+#
+# wrapper airgeddon
 
 path=/usr/share/airgeddon
 file=airgeddon.sh
