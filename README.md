@@ -11,7 +11,7 @@ curl -fsSL https://raw.githubusercontent.com/fixploit03/wireless-tools/main/inst
 ### Konfigurasi untuk CLI (Non-GUI)
 
 ```bash
-/usr/share/airgeddon/.airgeddonrc
+nano /usr/share/airgeddon/.airgeddonrc
 ```
 
 Ubah:
