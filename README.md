@@ -5,9 +5,11 @@
 ## Instalasi
 
 ```bash
+sudo apt update -y
+sudo apt install -y git
 git clone https://github.com/fixploit03/Airgeddon-Installer.git
 cd Airgeddon-Installer
-./instal.sh
+sudo ./instal.sh
 ```
 
 ## Konfigurasi
