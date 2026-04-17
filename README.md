@@ -5,7 +5,9 @@
 ## Instalasi
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/fixploit03/wireless-tools/main/instal.sh | sudo bash
+git clone https://github.com/fixploit03/Airgeddon-Installer.git
+cd Airgeddon-Installer
+./instal.sh
 ```
 
 ## Konfigurasi
