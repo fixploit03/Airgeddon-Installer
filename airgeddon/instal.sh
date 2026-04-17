@@ -43,6 +43,11 @@ apt install -y -f
 dpkg -i asleap_2.3~git20201128.254acab-0parrot1_amd64.deb
 apt install -y -f
 
+# instal john
+dpkg -i john-data_1.9.0-Jumbo-1+git20211102-0parrot1_all.deb
+dpkg -i john_1.9.0-Jumbo-1+git20211102-0parrot1_amd64.deb
+apt install -f
+
 # kloning airgeddon
 git clone https://github.com/v1s1t0r1sh3r3/airgeddon /usr/share/airgeddon
 
