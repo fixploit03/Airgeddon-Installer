@@ -20,6 +20,10 @@ apt update -y
 # instal tools yang ada di repositori
 apt install -y iw gawk aircrack-ng tmux iproute2 pciutils procps bettercap ettercap-text-only dnsmasq hcxtools bully nftables pixiewps hashcat hashcat-data hostapd tcpdump ettercap-common tshark mdk4 reaver hcxdumptool crunch lighttpd openssl curl git
 
+# kloning repositori
+git clone https://github.com/fixploit03/Airgeddon-Installer
+cd Airgeddon-Installer
+
 # instal tools yang ga ada di repositori
 #
 # instal hostapd-mana
@@ -53,6 +57,7 @@ git clone https://github.com/v1s1t0r1sh3r3/airgeddon /usr/share/airgeddon
 
 # salin wrapper airgeddon
 cp airgeddon /usr/local/bin
+cd -
 
 echo "[+] airgeddon berhasil diinstal!"
 exit 0
